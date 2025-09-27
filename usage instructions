@@ -1,0 +1,8 @@
+Usage
+
+# Make it executable (optional)
+chmod +x codegen_ai_offline.py
+
+# Ollama (model already on disk)
+./codegen_ai_offline.py --engine ollama -m qwen2.5-coder:7b --compile --run \
+  "CLI that prints the first 25 Fibonacci numbers"
